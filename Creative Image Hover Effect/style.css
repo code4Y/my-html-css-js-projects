@@ -8,6 +8,8 @@ body {
     align-items: center;
 }
 
+/* Image Container */
+
 .container {
     position: relative;
     width: 800px;
@@ -25,6 +27,8 @@ body {
     background: #ccc ;
     transition: all 0.5s;
 }
+
+/* Image clips */
 
 .clip1 {
     background: url(https://images.unsplash.com/photo-1604537466158-719b1972feb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
@@ -46,6 +50,8 @@ body {
     background-position: center;
     clip-path: polygon(82% 0, 100% 0, 100% 100%, 63% 100%);
 }
+
+/* Hover Effect */
 
 .container:hover .clip {
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);    
