@@ -5,7 +5,7 @@
 }
 
 body {
-	background: #00008bcd;
+	background: #e84a5f;
 }
 
 .wrapper {
@@ -22,7 +22,7 @@ body {
 }
 
 .loader .loading {
-	background: #fff;
+	background: #2a363b;
 	width: 30px;
 	height: 30px;
 	border-radius: 50px;
