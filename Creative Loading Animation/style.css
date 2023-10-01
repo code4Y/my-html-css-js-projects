@@ -30,6 +30,7 @@ body {
 	animation: load 0.8s ease infinite;
 }
 
+/* Loading Dots */
 .loader .loading.one {
 	animation-delay: 0.3s;
 }
@@ -37,12 +38,16 @@ body {
 .loader .loading.two {
 	animation-delay: 0.4s;
 }
+
 .loader .loading.three {
 	animation-delay: 0.5s;
 }
+
 .loader .loading.one {
 	animation-delay: 0.3s;
 }
+
+/* Animation */
 @keyframes load {
 	0% {
 		width: 30px;
