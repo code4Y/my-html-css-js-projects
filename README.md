@@ -10,3 +10,11 @@ This is a collection of my HTML, CSS &amp; JavaScript projects! 🚀
 1. [Creative Image Hover Effect](https://github.com/code4Y/my-html-css-js-projects/tree/main/Creative%20Image%20Hover%20Effect)
   
 2. [Creative Loading Animation](https://github.com/code4Y/my-html-css-js-projects/tree/main/Creative%20Loading%20Animation)
+
+3. [Tooltip](https://github.com/code4Y/my-html-css-js-projects/tree/main/Tooltip)
+
+4. [Creative Buttons](https://github.com/code4Y/my-html-css-js-projects/tree/main/Creative%20Buttons)
+
+5. [Creative Menus](https://github.com/code4Y/my-html-css-js-projects/tree/main/Creative%20Menus)
+
+6. [Creative Image Effect](https://github.com/code4Y/my-html-css-js-projects/tree/main/Creative%20Image%20Effect)
