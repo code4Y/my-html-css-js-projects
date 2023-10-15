@@ -18,3 +18,5 @@ This is a collection of my HTML, CSS &amp; JavaScript projects! 🚀
 5. [Creative Menus](https://github.com/code4Y/my-html-css-js-projects/tree/main/Creative%20Menus)
 
 6. [Creative Image Effect](https://github.com/code4Y/my-html-css-js-projects/tree/main/Creative%20Image%20Effect)
+
+7. [Creative Cards](https://github.com/code4Y/my-html-css-js-projects/tree/main/Creative%20Cards)
