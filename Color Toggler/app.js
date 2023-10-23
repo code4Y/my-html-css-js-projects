@@ -8,6 +8,7 @@ toggler.addEventListener('click', () => {
 //     document.body.style.backgroundColor = "white";
 //   }
 
+// Ternary Operator for cleaner code
   toggler.checked === true 
     ? (document.body.style.backgroundColor = "black")
     : (document.body.style.backgroundColor = "white");  
