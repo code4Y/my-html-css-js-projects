@@ -13,7 +13,7 @@ colors.forEach(color => {
 
 btnCopy.addEventListener("click", () => {
   output.select();
-  document.execCommand("copy");   // depricated
+  document.execCommand("copy");   //deprecated
   alert("Code Copied!");
 })
 
