@@ -27,7 +27,7 @@ function createBox() {
   let boxShadow = `${X}px ${Y}px ${blurRadius}px ${spreadRadius}px`;
 
   document.getElementById("box").style.cssText = `box-shadow: ${boxShadow} ${shadowcolor}`;
-  output.value = `box-shadow: ${boxShadow}`;
+  output.value = `box-shadow: ${boxShadow} ${shadowcolor}`;
 }
 
 createBox();
