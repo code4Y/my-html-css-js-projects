@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Global Style */
+:root {
+	--primary-color: #87bc29;
+	--primary-font: Algerian;
+	--bg-img-center: no-repeat center/cover;
+}
+
+/* Navigation */
+.nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	width: 100%;
+	padding: 20px;
+	z-index: 99;
+}
+
+.list-items {
+	display: inline;
+}
+
+.list-items a {
+	padding: 20px;
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+.list-items a:hover {
+	border-bottom: 2px solid #fff;
+}
+
+.nav_logo h1 {
+	color: #fff;
+	font-size: 2rem;
+	text-align: center;
+}
+
+span {
+	color: var(--primary-color);
+	font-family: (--primary-font);
+}
+
+/* Hero Area */
+.hero {
+	/* image credit https://unsplash.com/@jeriden94 */
+	background: linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,0.616)), 
+	url("https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+	var(--bg-img-center) 
+	fixed;
+}
+
+.hero_headings-container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	font-family: sans-serif;
+	margin-left: 10rem;
+	color: #fff;
+}
+
+.hero_main-headings {
+	font-size: 5rem;
+	color: #fff;
+}
+
+.hero_headings-container p {
+	font-weight: bold;
+}
+
+.main-btn {
+	text-decoration: none;
+	margin-top: 20px;
+	color: #fff;
+	border-bottom: 2px solid var(--primary-color);
+	padding-bottom: 5px;
+	font-weight: bold;
+}
