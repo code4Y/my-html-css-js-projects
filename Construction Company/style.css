@@ -247,8 +247,8 @@ form {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: flex-start;
-	margin: 10rem 10rem;
+	align-items: center;
+	margin: 2rem 10rem;
 }
 
 input {
@@ -295,12 +295,20 @@ footer > a {
 	.hero_main-headings {
 		font-size: 2rem;
 	}
-}
 
-.nav_logo {
-	display: none;
-}
+	.nav_logo {
+		display: none;
+	}
+	
+	.main-headings {
+		font-size: 2rem;
+	}
+	
+	.project-details-img {
+		margin-bottom: 5rem;
+	}
 
-.main-headings {
-	font-size: 2rem;
+	input {
+		width: 20rem;
+	}
 }
