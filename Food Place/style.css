@@ -74,8 +74,8 @@
 
 .main-img {
   margin-right: 20px;
-  width: 40%;
-  height: 40%;
+  width: 30%;
+  height: 30%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,7 +97,7 @@
 .delivery_img {
   width: 250px;
   height: 250px;
-  background-image: url(images/img-2.png);
+  background-image: url("images/img-2.png");
   background-position: center;
   background-size: cover;
   margin-right: 3rem;
@@ -121,4 +121,175 @@
 
 .delivery-btn {
   border: 1px solid #fff;
+}
+
+/* Why Foodplace */
+.why-food {
+  height: 110vh;
+  background: #fff;
+  color: #000;
+}
+
+.food-headings {
+  text-align: center;
+  margin-top: 10rem;
+  padding-top: 2rem;
+}
+
+.why-food_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards_card {
+  width: 30%;
+	margin: 0 auto;  
+}
+
+.card_title {
+	font-family: var(--main-font);
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.card_img {
+	width: 120px;
+	height: 120px;
+	background-size: cover;
+	background-position: center;
+	margin: 20px;
+	margin: 0 auto;
+}
+
+.img-one {
+	background-image: url("images/img-2.png");
+}
+
+.card-info {
+	margin: 20px;
+	font-family: var(--secondary-font);
+	text-align: center;
+	line-height: 20px;
+}
+
+.btn-container {
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* Testimonial */
+.testimonial {
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background: #000;
+	color: #fff;
+}
+
+.user-img {
+	background-image: url("images/Chef.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 26%;
+	height: 30rem;
+	box-shadow: 20px 20px 2px 2px #fff;
+}
+
+.user-rating-info {
+	width: 20rem;
+	height: 20px;
+	margin-left: 40px;
+	font-size: 20px;
+}
+
+.user-name {
+	font-size: 20px;
+	margin-top: 20px;
+	font-family: var(--main-font);
+}
+
+/* Footer */
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+	color: #000;
+	height: 40vh;
+}
+
+.footer-card {
+	margin: 0 auto;
+	font-family: var(--secondary-font);
+	font-weight: normal;
+}
+
+.footer-title {
+	margin-bottom: 20px;
+}
+
+.footer-info {
+	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	.main-headings {
+		font-size: 2rem;
+	}
+
+	.btns {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.delivery {
+		text-align: center;
+	}
+
+	.delivery_img {
+		margin: 0 auto;
+		margin-bottom: 2rem;
+	}
+
+	.delivery_headings {
+		font-size: 2rem;
+	}
+
+	.delivery_sub-headings {
+		font-size: 12px;
+	}
+
+	.why-food {
+		height: 120vh;
+	}
+
+	.card_title {
+		font-size: 1.4rem;
+	}
+
+	.user-img {
+		width: 50%;
+		height: 50%;
+	}
+
+	.user-rating-info {
+		margin-bottom: 8rem;
+		text-align: center;
+	}
+
+	.user-name {
+		font-size: 20px;
+		margin-top: 20px;
+		font-family: var(--main-font);
+	}
+
+	.footer {
+		margin-top: 10rem;
+	}
 }
