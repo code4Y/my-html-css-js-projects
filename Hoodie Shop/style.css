@@ -120,3 +120,35 @@ header {
   height: 400px;
 }
 /* Header End */
+
+/* Section One Start */
+.section-one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+.section-one-img {
+  background: url("https://images.unsplash.com/photo-1516195851888-6f1a981a862e?q=80&w=1905&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: top;
+  background-size: cover;
+}
+/* Section One End */
+
+/* Products Section Start */
+.products {
+  margin-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products .product-headings {
+  font-family: var(--primary-font);
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
