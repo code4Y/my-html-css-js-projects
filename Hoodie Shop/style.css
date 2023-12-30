@@ -153,7 +153,7 @@ header {
   margin-bottom: 3rem;
 }
 
-.products .product-categories button{
+.products .product-categories button {
   margin-right: 20px;
   margin-bottom: 2rem;
 }
@@ -208,7 +208,7 @@ header {
   margin-top: 5rem;
   display: flex;flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
+  text-align: center;
 }
 
 .customer {
@@ -252,4 +252,65 @@ header {
 
 .customer .img-three {
   background: url("https://images.unsplash.com/photo-1540569014015-19a7be504e3a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8");
+}
+/* Customer Review End */
+
+/* Footer Start */
+footer {
+  background: #1f1e1e;
+  margin-top: 10rem;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  font-family: var(--primary-font);
+}
+
+footer .container .footer-heading {
+  margin-bottom: 3rem;
+}
+
+footer .container .footer-primary-heading {
+  font-weight: normal;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+/* Footer End */
+
+/* Responsive */
+@media only screen and (max-width: 900px) {
+  header {
+    height: 120vh;
+    text-align: center;
+  }
+
+  .section-one {
+    height: 120vh;
+    text-align: center;
+  }
+
+  .header-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .product-categories {
+    display: flex;
+  }
+
+  .main-headings {
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+
+  .primary-headings {
+    width: 400px;
+  }
+
+  .customer .customer-img .img {
+    width: 150px;
+    height: 150px;
+  }
 }
