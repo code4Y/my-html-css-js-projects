@@ -281,3 +281,124 @@ header {
 }
 /* Why Us End */
 
+/* Features Start */
+.features {
+  margin-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Features End */
+
+/* Footer Start */
+footer {
+  background: var(--primary-color);
+  margin-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+footer .logo-container h1 {
+  font-size: 4rem;
+  font-family: var(--main-font);
+  margin-bottom: 20px;
+}
+
+footer .logo-container p {
+  max-width: 400px;
+  font-family: sans-serif;
+  line-height: 25px;
+}
+
+footer .about-company {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .about-company .container {
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.about-company .container h1 {
+  margin-bottom: 50px;
+}
+
+.about-company .container p {
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+/* Footer End */
+
+/* Responsiveness */
+@media only screen and (max-width: 1150px) {
+  .img-container {
+    width: 340px;
+    height: 340px;
+  }
+
+  .d-none {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  header {
+    height: 120vh;
+    text-align: center;
+    justify-content: center;
+  }
+
+  header .content-container {
+    margin-bottom: 6rem;
+    margin-top: 4rem;
+    margin-left: 0;
+  }
+
+  .popularity {
+    margin-top: 22rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .primary-headings {
+    width: 350px;
+  }
+
+  .img-container {
+    width: 350px;
+    height: 350px;
+  }
+
+  .popularity div h1 {
+    font-size: 2rem;
+  }
+
+  .popularity div {
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 7rem;
+  }
+
+  .main-headings {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .cards {
+    margin-right: 5rem;
+  }
+
+  .card-fill {
+    margin-left: 10px;
+  }
+}
