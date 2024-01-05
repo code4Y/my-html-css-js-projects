@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto&display=swap");
+
+:root {
+  --main-color: #37132d;
+  --main-font: "Playfair Display", serif;
+  --secondary-font: "Roboto", sans-serif;
+}
+
+/* Resets */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Header Start */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+}
+
+ul li a {
+  text-decoration: none;
+  margin: 10px;
+  color: #000;
+  font-family: var(--secondary-font);
+}
+/* Header End */
+
+/* Section One Start*/
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+.header-heading {
+  font-size: 4rem;
+  font-family: var(--main-font);
+}
+
+.header-sub-headings {
+  width: 70%;
+  font-family: var(--secondary-font);
+  color: rgb(82, 82, 82);
+  margin: 20px 0;
+}
+
+.header-img-container {
+  width: 30%;
+  height: 50vh;
+  position: relative;
+}
+
+.img-one {
+  position: absolute;
+  left: 10rem;
+}
+
+.img-two {
+  position: absolute;
+  left: 3rem;
+  top: 8rem;
+}
+
+.header-img {
+  width: 200px;
+  height: 300px;
+}
+
+.main-btn {
+  padding: 10px 20px;
+  text-decoration: none;
+  background: var(--main-color);
+  color: #fff;
+  font-family: var(--secondary-font);
+}
+/* Section One End*/
