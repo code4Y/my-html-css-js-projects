@@ -93,3 +93,32 @@ ul li a {
   font-family: var(--secondary-font);
 }
 /* Section One End*/
+
+/* Experience Section Start */
+.experience {
+  height: 90vh;
+  margin-left: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.experience-img {
+  background: url("https://images.unsplash.com/photo-1553521041-d168abd31de3?q=30&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  width: 300px;
+  height: 350px;
+  margin-left: 50px;
+}
+
+.gray-heading {
+  color: gray;
+  font-family: var(--main-color);
+}
+
+.btn-container {
+  margin-top: 30px;
+}
+/* Experience Section End */
