@@ -252,3 +252,69 @@ ul li a {
   margin: 30px 40px;
 }
 /* Services End */
+
+/* Footer Start */
+.footer {
+  background: var(--main-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  height: 50vh;
+  margin-top: 10rem;
+}
+
+.footer-card-title {
+  font-family: var(--main-font);
+}
+
+.footer-card-info {
+  font-family: var(--secondary-font);
+  line-height: 2rem;
+}
+/* Footer End */
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+  .header-content {
+    align-items: center;
+    text-align: center;
+    width: 70%;
+  }
+
+  .header-img-container {
+    display: none;
+  }
+
+  .experience {
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .experience-heading {
+    font-size: 3rem;
+  }
+
+  .experience-sub-headings {
+    margin: 0 auto;
+  }
+
+  .btn-container {
+    margin-top: 30px;
+    margin-bottom: 3.5rem;
+  }
+
+  .follow {
+    display: none;
+  }
+
+  .sm-container {
+    flex-direction: column;
+  }
+
+  .list-items {
+    margin: 10px;
+  }
+}
